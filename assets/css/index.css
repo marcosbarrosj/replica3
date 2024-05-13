@@ -1,0 +1,921 @@
+body{
+     margin: 0;
+     padding: 0;
+}
+
+
+     /*Parte Principal*/
+
+.content{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+          /*Parte dois*/
+
+
+
+
+
+#openMenu, #closeMenu {
+	
+	border: none;
+	background: none;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+	cursor: pointer;
+	display: none;
+}
+
+             /* menu */
+
+             #menu {
+                justify-content: center;
+                width:  30vh;
+                position: fixed;
+                height: 100vh;
+                margin-right: 24cm;
+                padding: 25px;
+                
+              
+            }
+            
+            #menuum a {
+                padding: 10px 30px;
+                display: flex;
+                margin:  2%;
+                font-size: 18px;
+                text-decoration: none;
+                color: #757575;
+                font-weight: 400;
+                 font-style: normal;
+                 font-family: "Roboto", sans-serif;
+            }
+
+            #menuum p {
+                padding: 10px 20px;
+                display: flex;
+                margin:  2%;
+                font-size: 18px;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                border: #f1f1f1;
+                font-weight: 400;
+                 font-style: normal;
+                 font-family: "Roboto", sans-serif;
+                
+
+            }
+
+            #menuum a:hover{
+
+                background-color:#a0a0a0;
+                color: rgb(0, 0, 0);
+                padding: 15px 25px;
+            
+            
+            }
+
+
+            
+            
+            
+            #menuum p:hover{
+
+              background-color:#a0a0a0;
+              color: rgb(0, 0, 0);
+                padding: 15px 20px;
+            
+            
+            }
+
+
+            #logo{
+                font-size: 24px  ;
+                color: rgb(0, 0, 0);
+                margin-bottom: 3cm;
+                font-weight: 400;
+                 font-style: normal;
+                 font-family: "Montserrat", sans-serif;
+
+
+
+
+            }
+
+
+            #options a{
+                font-size: 15px  ;
+                margin-left: 20px; 
+                color: #757575;
+                font-weight: 400;
+                 font-style: normal;
+                 font-family: "Roboto", sans-serif;
+            }
+
+          .options a:first-child {
+            background-color:#dcdbdb;
+            
+
+ 
+
+          }
+
+           
+            .barralateral-textodois {
+                margin-top: 2cm;
+                margin-left: 25px;
+
+
+
+            }
+           
+                
+            .barralateral-textodois a{
+                display: flex;
+                padding: 10px;
+                text-decoration: none;
+                font-size: 15px  ;
+                color: rgb(0, 0, 0);
+                margin-right: 1px;
+                font-weight: 400;
+                 font-style: normal;
+                 font-family: "Roboto", sans-serif
+
+            }
+     
+            .barralateral-textodois a:hover{
+              background-color:#a0a0a0;
+              color: rgb(0, 0, 0);
+              padding: 15px 25px;
+             
+          }
+
+
+          
+
+           
+            /*  parte central*/
+           
+                .baracentaral{
+                padding: 20px;
+                margin-left: 7cm;
+                position: relative;
+                margin-top: 12px;
+
+   
+               }
+               
+           
+              
+            .baracentaral-img{
+                margin-left: 40px;
+                display: flex; 
+  
+                }
+
+                .baracentaral-img img{
+                    position: relative;
+                                   }
+
+                .texto{
+                    position: absolute;
+                    margin-left: 30px;
+                }
+
+                .texto h1{
+                  color: rgb(255, 255, 255);
+                  font-size: 64px;
+                  font-weight: 400;
+                font-style: normal;
+                font-family: "Montserrat", sans-serif;
+}
+
+                  .texto h2{
+                    color: rgb(255, 255, 255);
+                    font-size: 36px;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-family: "Montserrat", sans-serif;
+ }
+
+
+                .texto button {
+                    background-color: black;
+                    padding: 15px 22px;
+                    color: rgb(255, 255, 255);
+                    font-size: 18px;
+                    cursor: pointer;
+                    border: none;
+                    font-weight: 400;
+                    font-style: normal;
+                 font-family: "Montserrat", sans-serif;
+
+
+
+                }
+
+                .texto button:hover {
+                    background-color: #b1b1b1;
+                    color: black;
+
+
+
+                }
+  
+  
+
+                .Jeans{
+                    display: flex;
+
+                }
+
+                .Jeans i{
+                    margin-right: 25px;
+                    margin-top: 30px;
+                    flex: 2;
+                    font-size: 24px;
+                }
+
+                #Jeans{
+                    margin-left: 19cm;
+                }
+
+
+
+
+            
+
+
+
+                .baracentaral p{
+                    margin-left: 40px; 
+                    font-size: 24px;  
+                    color: rgb(0, 0, 0);
+                    font-weight: 400;
+                    font-style: normal;
+                    font-family: "Montserrat", sans-serif;
+
+                    }
+                    
+
+ /*  parte das fotos menores*/
+
+#items{
+    margin-left: 740px;
+    color: rgb(117, 117, 117);
+    font-size: 15px;
+    font-weight: 400;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+
+
+}
+
+
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 310px;
+
+}
+
+
+
+.container  div{
+    display: flex;
+    
+}
+.photo {
+    margin: 13px;
+    flex-direction: column;
+}
+
+
+
+.caption {
+    width: 200px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+ 
+#oferta {
+  color: #a52017;
+
+}
+
+
+/*  inscrever   */
+
+    .inscrever{
+      margin-left: 740px;
+      background-color: black;
+    padding: 30px;
+    width: 850px;
+    height: vh;
+}
+.inscrever h1{
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 1px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+}
+
+.inscrever p{
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 1px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+}
+
+.search-box input {
+    width: 40vw;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+
+}
+
+.inscrever button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #f44336;
+}
+
+
+.inscrever button:hover{
+    background-color: #b1b1b1;
+    color: black;
+   
+}
+  /*  contato   */
+
+
+  .contato{
+    display: flex;
+    margin-left: 740px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    width: 870px;
+    height: 45vh;
+
+  }
+
+
+     /*  contato 1  */
+
+  .contatoum{
+    flex: 4;
+  }
+
+  .contatoum h4{
+    margin-left: 135px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0)
+    ;
+  }
+  
+  .contatoum p{
+    margin-left: 100px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0)
+    ;
+  }
+
+
+  .search-boxdois input {
+    width: 14vw;
+    background-color: white;
+    padding: 10px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    border: 1px solid
+    
+    
+    #cccccc;
+
+}
+
+.contatoum button{
+    width: 315px;
+    padding: 12px  ;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    background-color:rgb(0, 0, 0);
+}
+
+
+.contatoum button:hover{
+    background-color: #b1b1b1;
+    color: black;
+   
+}
+
+
+
+
+
+   /*  contato 2  */
+
+  .contatodois{
+    flex: 3;
+  }
+
+  .contatodois h4{
+    margin-left: 135px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0)
+    ;
+  }
+
+  .contatodois p{
+    text-align: center;
+    margin-left: 60px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    width: 200px;
+  
+  }
+
+  .contatodois a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+
+   
+  }
+
+
+
+
+   /*  contato 3  */
+
+  .contatotres{
+    flex: 5;
+  }
+
+
+  .contatotres h4{
+    margin-left: 135px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0)
+    ;
+  }
+
+  
+  .contatotres h3{
+    margin-left: 135px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0)
+    ;
+  }
+
+  
+  .contatotres p{
+    margin-left: 135px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0)
+    ;
+  }
+.figuras{
+  margin-left: 135px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.figuras i:hover{ color: #b1b1b1;
+ 
+
+ 
+}
+
+
+/*  final  */
+
+ footer{
+  margin-left: 740px;
+  text-align: center;
+     background-color: black;
+     padding: 30px;
+     width: 850px;
+     height: 4vh;
+     color: #f1f1f1;
+     font-weight: 400;
+     font-style: normal;
+     font-family: "Montserrat", sans-serif;
+     font-size: 15px;
+
+    
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #f1f1f1;
+        text-decoration: underline;
+        cursor: pointer;
+
+      
+        }
+        footer a:hover{
+            color: #757575;
+             
+    
+          
+            }
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*  mdia */
+
+
+            @media only screen and (max-width: 900px) {
+                body{
+                    margin: 0;
+                    padding: 0;
+                    background-color: #ffffff;
+                }
+               
+
+
+
+                .content{
+                    flex-direction: column;
+                    margin: 0;
+                    padding: 0;
+                }
+               
+               
+               #openMenu, #closeMenu {
+                   display: block;
+           
+               }
+           
+               #openMenu {
+                   margin-left: auto;
+
+                   
+                   
+               }
+           
+               #closeMenu {
+                   position: fixed;
+                   right: 2px;
+                   top: 10px;
+
+                   
+                   
+           
+               }
+               #menu  {
+                padding: 0;
+                margin-top: 10cm;
+                position: fixed;
+                width: 50vw;
+                height: 300vh;
+                background-color: rgb(14, 13, 13);
+                flex-direction: column; 
+                display: none;
+                opacity: 0;
+                transition: 0.3s;
+                margin-right: 20px;
+                z-index: 9999; /* ou outro valor alto o suficiente */
+                
+              }
+                
+                
+
+
+            
+        
+            
+
+
+            #logo{
+                margin-left: 30px;
+                margin-bottom: 2cm;
+                color: #757575;
+
+            }
+            .options a:first-child {
+              display: none;
+              
+
+            }
+
+
+            .barralateral-textodois a{ 
+              color: #757575;
+              
+
+          }
+   
+  
+           
+                /*   Baracentaral  */
+           
+
+
+            .baracentaral{
+                margin-left: 0;  }
+
+
+                .baracentaral-img{
+                    margin-left: 0px;
+      
+                    }
+
+                .baracentaral-img img{
+                 width: 100%;
+                 margin-left: 10px;  
+                                  
+                   
+                    
+                    
+                    }
+
+
+                    
+                    .Jeans i{
+                        margin-right: 10px;
+                        margin-top: 35px;
+                      
+                    }
+    
+                    #Jeans{
+                        margin-left: 5cm;
+                    }
+
+
+                    .texto h1{
+                        font-size: 33px;}
+
+                        .texto h2{
+                            display: none; }
+          
+               
+ /*  parte das fotos menores*/
+
+
+ #items{
+    margin-left: 30px;
+
+
+}
+
+ 
+ .container {
+    flex-direction: column;
+    margin-left: 0px;
+    display: flex;
+    margin-left: 30px;
+
+
+}
+
+
+
+.container  img{
+ width: 86%;
+ margin-right: 0px;
+
+
+}
+
+.photo{
+    margin: 0px;
+}
+
+    .containerum{
+        display: flex;
+    }
+
+    .containerdois{
+        display: flex;
+    }
+
+
+
+
+.caption {
+    margin-top: 0px;
+}
+ 
+/*  inscrever   */
+
+.inscrever{
+    margin-left: 0px;
+    width: 90vw;
+    height: 26vh;
+
+}
+
+
+.search-box input {
+    width: 80vw;
+    
+}
+
+
+
+
+ /*  contato   */
+
+
+ .contato{
+    margin-left: 0px;
+    width: 95vw;
+    
+
+
+  }
+
+
+
+  /*  contato 1  */
+
+  
+
+  .contatoum h4{
+    margin-left: 10px;
+    font-size: 18px;
+   
+  }
+  
+  .contatoum p{
+    margin-left: 0px;
+    width: 100px;
+    text-align: center;
+
+  }
+
+  .search-boxdois input {
+    width: 20vw;
+    padding: 8px;
+
+    
+}
+
+.contatoum button{
+    width: 100px;
+    ;
+ 
+}
+
+
+ /*  contato 2  */
+
+ 
+
+  .contatodois h4{
+    font-size: 18px;
+    margin-left: 20px;
+   
+  }
+
+  .contatodois p{
+    margin-left: 0px;
+    width: 100px;
+
+  }
+
+
+   /*  contato 3  */
+
+   .contatotres{
+    flex: 5;
+  }
+
+
+  .contatotres h4{
+    
+    margin-left: 10px;
+    font-size: 18px;
+    
+   
+  }
+
+
+  .contatotres h3{
+    width: 100px;
+    margin-left: 10px;
+    font-size: 18px;
+    
+   
+  }
+
+  .contatotres p{
+    margin-left: 10px;
+    width: 100px;
+  
+  }
+
+  .contato div{
+    margin-right: 40px;}
+
+    .figuras{
+      display: flex;
+      margin-left: 10px;
+  
+    }
+
+    .figuras i{
+margin-right: 3px;  
+    }
+
+    /*  final  */
+
+ footer{
+    margin-left: 0px;
+     margin-left: 0px;
+     background-color: black;
+     width: 90vw;
+     height: 4vh;
+     
+    
+    }
+  
+       }
+             
+                  
+           
+           
+               
+
+               
